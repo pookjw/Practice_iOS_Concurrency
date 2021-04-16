@@ -20,6 +20,8 @@
 		4F9EB76C26233C7600634D27 /* Chapter2ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9EB76B26233C7600634D27 /* Chapter2ViewModel.swift */; };
 		4F9EB77026233EDE00634D27 /* Chapter3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9EB76F26233EDE00634D27 /* Chapter3View.swift */; };
 		4F9EB77226233EED00634D27 /* Chapter3ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9EB77126233EED00634D27 /* Chapter3ViewModel.swift */; };
+		4FC048D226292E6B0059ECD2 /* Chapter4View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC048D126292E6B0059ECD2 /* Chapter4View.swift */; };
+		4FC048D426292E7C0059ECD2 /* Chapter4ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC048D326292E7C0059ECD2 /* Chapter4ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +43,8 @@
 		4F9EB76B26233C7600634D27 /* Chapter2ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter2ViewModel.swift; sourceTree = "<group>"; };
 		4F9EB76F26233EDE00634D27 /* Chapter3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter3View.swift; sourceTree = "<group>"; };
 		4F9EB77126233EED00634D27 /* Chapter3ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter3ViewModel.swift; sourceTree = "<group>"; };
+		4FC048D126292E6B0059ECD2 /* Chapter4View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter4View.swift; sourceTree = "<group>"; };
+		4FC048D326292E7C0059ECD2 /* Chapter4ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter4ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +141,7 @@
 			children = (
 				4F9EB76326233BB300634D27 /* Chapter2View.swift */,
 				4F9EB76F26233EDE00634D27 /* Chapter3View.swift */,
+				4FC048D126292E6B0059ECD2 /* Chapter4View.swift */,
 			);
 			path = Chapters;
 			sourceTree = "<group>";
@@ -154,6 +159,7 @@
 			children = (
 				4F9EB76B26233C7600634D27 /* Chapter2ViewModel.swift */,
 				4F9EB77126233EED00634D27 /* Chapter3ViewModel.swift */,
+				4FC048D326292E7C0059ECD2 /* Chapter4ViewModel.swift */,
 			);
 			path = Chapters;
 			sourceTree = "<group>";
@@ -229,12 +235,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F9EB76426233BB300634D27 /* Chapter2View.swift in Sources */,
+				4FC048D426292E7C0059ECD2 /* Chapter4ViewModel.swift in Sources */,
 				4F9EB76926233C2B00634D27 /* ChapterAction.swift in Sources */,
 				4F9EB77026233EDE00634D27 /* Chapter3View.swift in Sources */,
 				4F6D8472262359AA00F6CB69 /* Chapter3Object.m in Sources */,
 				4F9EB76C26233C7600634D27 /* Chapter2ViewModel.swift in Sources */,
 				4F9EB76626233BF600634D27 /* BaseChapterViewModel.swift in Sources */,
 				4F9EB74E26233B0C00634D27 /* Practice_iOS_ConcurrencyApp.swift in Sources */,
+				4FC048D226292E6B0059ECD2 /* Chapter4View.swift in Sources */,
 				4F6D846B2623551000F6CB69 /* Chapter2Object.m in Sources */,
 				4F9EB77226233EED00634D27 /* Chapter3ViewModel.swift in Sources */,
 				4F9EB76126233B7400634D27 /* HomeViewModel.swift in Sources */,
