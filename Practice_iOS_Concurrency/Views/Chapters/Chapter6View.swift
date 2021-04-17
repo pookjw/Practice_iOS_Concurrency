@@ -1,14 +1,14 @@
 //
-//  Chapter4View.swift
+//  Chapter6View.swift
 //  Practice_iOS_Concurrency
 //
-//  Created by Jinwoo Kim on 4/16/21.
+//  Created by Jinwoo Kim on 4/17/21.
 //
 
 import SwiftUI
 
-struct Chapter4View: View {
-    var viewModel: Chapter4ViewModel = .init()
+struct Chapter6View: View {
+    var viewModel: Chapter6ViewModel = .init()
     
     var body: some View {
         List {
@@ -16,12 +16,13 @@ struct Chapter4View: View {
                 Button(chapterAction.title, action: chapterAction.action)
             }
         }
-        .navigationTitle(Text("Chapter 4"))
+        .navigationTitle(Text("Chapter 6"))
         .onAppear(perform: {
-            print("***** Chapter 4 *****")
+            print("***** Chapter 6 *****")
             if viewModel.loadLastAction {
                 viewModel.getLastAction()()
             }
         })
     }
 }
+
