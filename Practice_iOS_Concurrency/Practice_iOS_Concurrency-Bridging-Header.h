@@ -5,4 +5,5 @@
 #import "Chapter2Object.h"
 #import "Chapter3Object.h"
 #import "Chapter4Object.h"
+#import "Chapter5Object.h"
 #import "Chapter6Object.h"

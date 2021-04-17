@@ -112,8 +112,8 @@
 
 + (void)semaphore {
     /*
-     wait는 value를 증가시키고
-     signal은 value를 감소시킨다.
+     wait는 value를 감소시키고 (0보다 작아질 수 있다)
+     signal은 value를 증가시킨다.
      value가 0이 되면 wait는 통과된다
      */
     

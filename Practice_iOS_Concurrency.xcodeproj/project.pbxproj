@@ -28,6 +28,9 @@
 		4FEF6828262AF05F00D68CE3 /* Duration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEF6827262AF05F00D68CE3 /* Duration.swift */; };
 		4FEF682C262AF4B400D68CE3 /* Chapter2Operation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEF682B262AF4B400D68CE3 /* Chapter2Operation.swift */; };
 		4FEF682F262AF4DD00D68CE3 /* Chapter6Object.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FEF682E262AF4DD00D68CE3 /* Chapter6Object.m */; };
+		4FEF6831262B311000D68CE3 /* Chapter5ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEF6830262B311000D68CE3 /* Chapter5ViewModel.swift */; };
+		4FEF6833262B312400D68CE3 /* Chapter5View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEF6832262B312400D68CE3 /* Chapter5View.swift */; };
+		4FEF6836262B315700D68CE3 /* Chapter5Object.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FEF6835262B315700D68CE3 /* Chapter5Object.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +62,10 @@
 		4FEF682B262AF4B400D68CE3 /* Chapter2Operation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter2Operation.swift; sourceTree = "<group>"; };
 		4FEF682D262AF4DD00D68CE3 /* Chapter6Object.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Chapter6Object.h; sourceTree = "<group>"; };
 		4FEF682E262AF4DD00D68CE3 /* Chapter6Object.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Chapter6Object.m; sourceTree = "<group>"; };
+		4FEF6830262B311000D68CE3 /* Chapter5ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter5ViewModel.swift; sourceTree = "<group>"; };
+		4FEF6832262B312400D68CE3 /* Chapter5View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter5View.swift; sourceTree = "<group>"; };
+		4FEF6834262B315700D68CE3 /* Chapter5Object.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Chapter5Object.h; sourceTree = "<group>"; };
+		4FEF6835262B315700D68CE3 /* Chapter5Object.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Chapter5Object.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +96,8 @@
 				4F6D8471262359AA00F6CB69 /* Chapter3Object.m */,
 				4FEF6820262AE3DF00D68CE3 /* Chapter4Object.h */,
 				4FEF6821262AE3DF00D68CE3 /* Chapter4Object.m */,
+				4FEF6834262B315700D68CE3 /* Chapter5Object.h */,
+				4FEF6835262B315700D68CE3 /* Chapter5Object.m */,
 				4FEF682D262AF4DD00D68CE3 /* Chapter6Object.h */,
 				4FEF682E262AF4DD00D68CE3 /* Chapter6Object.m */,
 			);
@@ -160,6 +169,7 @@
 				4F9EB76326233BB300634D27 /* Chapter2View.swift */,
 				4F9EB76F26233EDE00634D27 /* Chapter3View.swift */,
 				4FC048D126292E6B0059ECD2 /* Chapter4View.swift */,
+				4FEF6832262B312400D68CE3 /* Chapter5View.swift */,
 				4FEF6823262AEDD300D68CE3 /* Chapter6View.swift */,
 			);
 			path = Chapters;
@@ -181,6 +191,7 @@
 				4F9EB76B26233C7600634D27 /* Chapter2ViewModel.swift */,
 				4F9EB77126233EED00634D27 /* Chapter3ViewModel.swift */,
 				4FC048D326292E7C0059ECD2 /* Chapter4ViewModel.swift */,
+				4FEF6830262B311000D68CE3 /* Chapter5ViewModel.swift */,
 				4FEF6825262AEDEE00D68CE3 /* Chapter6ViewModel.swift */,
 			);
 			path = Chapters;
@@ -267,6 +278,8 @@
 				4F9EB76C26233C7600634D27 /* Chapter2ViewModel.swift in Sources */,
 				4F9EB76626233BF600634D27 /* BaseChapterViewModel.swift in Sources */,
 				4F9EB74E26233B0C00634D27 /* Practice_iOS_ConcurrencyApp.swift in Sources */,
+				4FEF6833262B312400D68CE3 /* Chapter5View.swift in Sources */,
+				4FEF6836262B315700D68CE3 /* Chapter5Object.m in Sources */,
 				4FEF6826262AEDEE00D68CE3 /* Chapter6ViewModel.swift in Sources */,
 				4FC048D226292E6B0059ECD2 /* Chapter4View.swift in Sources */,
 				4F6D846B2623551000F6CB69 /* Chapter2Object.m in Sources */,
@@ -274,6 +287,7 @@
 				4FEF6828262AF05F00D68CE3 /* Duration.swift in Sources */,
 				4F9EB77226233EED00634D27 /* Chapter3ViewModel.swift in Sources */,
 				4F9EB76126233B7400634D27 /* HomeViewModel.swift in Sources */,
+				4FEF6831262B311000D68CE3 /* Chapter5ViewModel.swift in Sources */,
 				4F9EB75D26233B3A00634D27 /* HomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
