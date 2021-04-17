@@ -9,7 +9,7 @@ import SwiftUI
 
 class HomeViewModel {
     let pushToLastChapter: Bool = true
-    let listOfChapters: [Int] = [2, 3, 4, 5, 6]
+    let listOfChapters: [Int] = [2, 3, 4, 5, 6, 7]
     
     func getView(at index: Int) -> some View {
         switch index {
@@ -23,6 +23,8 @@ class HomeViewModel {
             return AnyView(Chapter5View())
         case 6:
             return AnyView(Chapter6View())
+        case 7:
+            return AnyView(Chapter7View())
         default:
             return AnyView(EmptyView())
         }

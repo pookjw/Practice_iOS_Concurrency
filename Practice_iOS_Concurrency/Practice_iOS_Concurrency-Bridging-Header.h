@@ -7,3 +7,4 @@
 #import "Chapter4Object.h"
 #import "Chapter5Object.h"
 #import "Chapter6Object.h"
+#import "Chapter7Object.h"
