@@ -22,6 +22,7 @@
 		4F9EB77226233EED00634D27 /* Chapter3ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9EB77126233EED00634D27 /* Chapter3ViewModel.swift */; };
 		4FC048D226292E6B0059ECD2 /* Chapter4View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC048D126292E6B0059ECD2 /* Chapter4View.swift */; };
 		4FC048D426292E7C0059ECD2 /* Chapter4ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC048D326292E7C0059ECD2 /* Chapter4ViewModel.swift */; };
+		4FEF6822262AE3DF00D68CE3 /* Chapter4Object.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FEF6821262AE3DF00D68CE3 /* Chapter4Object.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,8 @@
 		4F9EB77126233EED00634D27 /* Chapter3ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter3ViewModel.swift; sourceTree = "<group>"; };
 		4FC048D126292E6B0059ECD2 /* Chapter4View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter4View.swift; sourceTree = "<group>"; };
 		4FC048D326292E7C0059ECD2 /* Chapter4ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter4ViewModel.swift; sourceTree = "<group>"; };
+		4FEF6820262AE3DF00D68CE3 /* Chapter4Object.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Chapter4Object.h; sourceTree = "<group>"; };
+		4FEF6821262AE3DF00D68CE3 /* Chapter4Object.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Chapter4Object.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +76,8 @@
 				4F6D846A2623551000F6CB69 /* Chapter2Object.m */,
 				4F6D8470262359AA00F6CB69 /* Chapter3Object.h */,
 				4F6D8471262359AA00F6CB69 /* Chapter3Object.m */,
+				4FEF6820262AE3DF00D68CE3 /* Chapter4Object.h */,
+				4FEF6821262AE3DF00D68CE3 /* Chapter4Object.m */,
 			);
 			path = Chapters;
 			sourceTree = "<group>";
@@ -235,6 +240,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F9EB76426233BB300634D27 /* Chapter2View.swift in Sources */,
+				4FEF6822262AE3DF00D68CE3 /* Chapter4Object.m in Sources */,
 				4FC048D426292E7C0059ECD2 /* Chapter4ViewModel.swift in Sources */,
 				4F9EB76926233C2B00634D27 /* ChapterAction.swift in Sources */,
 				4F9EB77026233EDE00634D27 /* Chapter3View.swift in Sources */,

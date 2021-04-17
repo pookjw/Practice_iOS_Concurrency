@@ -4,3 +4,4 @@
 
 #import "Chapter2Object.h"
 #import "Chapter3Object.h"
+#import "Chapter4Object.h"
