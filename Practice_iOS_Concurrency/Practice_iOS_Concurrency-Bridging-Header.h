@@ -9,3 +9,4 @@
 #import "Chapter6Object.h"
 #import "Chapter7Object.h"
 #import "Chapter9Object.h"
+#import "Chapter10Object.h"

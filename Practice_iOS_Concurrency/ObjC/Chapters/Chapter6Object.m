@@ -50,7 +50,6 @@
         }];
     }
     
-    // start 이전에 불려야 한다.
     wordOperation.completionBlock = ^{
         NSLog(@"Thank you for your patronage!");
     };
@@ -69,7 +68,6 @@
         }];
     }
     
-    // start 이전에 불려야 한다.
     wordOperation.completionBlock = ^{
         NSLog(@"Thank you for your patronage!");
     };

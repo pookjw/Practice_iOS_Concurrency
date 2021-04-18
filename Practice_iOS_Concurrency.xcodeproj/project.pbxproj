@@ -39,6 +39,9 @@
 		4FEF6848262B470800D68CE3 /* Chapter9ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEF6847262B470800D68CE3 /* Chapter9ViewModel.swift */; };
 		4FEF684A262B471800D68CE3 /* Chapter9View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEF6849262B471800D68CE3 /* Chapter9View.swift */; };
 		4FEF684D262B472A00D68CE3 /* Chapter9Object.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FEF684C262B472A00D68CE3 /* Chapter9Object.m */; };
+		4FEF684F262B4BCB00D68CE3 /* Chapter10ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEF684E262B4BCB00D68CE3 /* Chapter10ViewModel.swift */; };
+		4FEF6851262B4BDF00D68CE3 /* Chapter10View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEF6850262B4BDF00D68CE3 /* Chapter10View.swift */; };
+		4FEF6857262C922000D68CE3 /* Chapter10Object.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FEF6856262C922000D68CE3 /* Chapter10Object.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -84,6 +87,10 @@
 		4FEF6849262B471800D68CE3 /* Chapter9View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter9View.swift; sourceTree = "<group>"; };
 		4FEF684B262B472A00D68CE3 /* Chapter9Object.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Chapter9Object.h; sourceTree = "<group>"; };
 		4FEF684C262B472A00D68CE3 /* Chapter9Object.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Chapter9Object.m; sourceTree = "<group>"; };
+		4FEF684E262B4BCB00D68CE3 /* Chapter10ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter10ViewModel.swift; sourceTree = "<group>"; };
+		4FEF6850262B4BDF00D68CE3 /* Chapter10View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter10View.swift; sourceTree = "<group>"; };
+		4FEF6855262C922000D68CE3 /* Chapter10Object.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Chapter10Object.h; sourceTree = "<group>"; };
+		4FEF6856262C922000D68CE3 /* Chapter10Object.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Chapter10Object.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +129,8 @@
 				4FEF683C262B37A000D68CE3 /* Chapter7Object.m */,
 				4FEF684B262B472A00D68CE3 /* Chapter9Object.h */,
 				4FEF684C262B472A00D68CE3 /* Chapter9Object.m */,
+				4FEF6855262C922000D68CE3 /* Chapter10Object.h */,
+				4FEF6856262C922000D68CE3 /* Chapter10Object.m */,
 			);
 			path = Chapters;
 			sourceTree = "<group>";
@@ -196,6 +205,7 @@
 				4FEF6837262B375D00D68CE3 /* Chapter7View.swift */,
 				4FEF6840262B445400D68CE3 /* Chapter8View.swift */,
 				4FEF6849262B471800D68CE3 /* Chapter9View.swift */,
+				4FEF6850262B4BDF00D68CE3 /* Chapter10View.swift */,
 			);
 			path = Chapters;
 			sourceTree = "<group>";
@@ -221,6 +231,7 @@
 				4FEF6839262B377100D68CE3 /* Chapter7ViewModel.swift */,
 				4FEF683E262B444000D68CE3 /* Chapter8ViewModel.swift */,
 				4FEF6847262B470800D68CE3 /* Chapter9ViewModel.swift */,
+				4FEF684E262B4BCB00D68CE3 /* Chapter10ViewModel.swift */,
 			);
 			path = Chapters;
 			sourceTree = "<group>";
@@ -304,6 +315,7 @@
 				4F9EB77026233EDE00634D27 /* Chapter3View.swift in Sources */,
 				4F6D8472262359AA00F6CB69 /* Chapter3Object.m in Sources */,
 				4FEF6841262B445400D68CE3 /* Chapter8View.swift in Sources */,
+				4FEF6857262C922000D68CE3 /* Chapter10Object.m in Sources */,
 				4F9EB76C26233C7600634D27 /* Chapter2ViewModel.swift in Sources */,
 				4F9EB76626233BF600634D27 /* BaseChapterViewModel.swift in Sources */,
 				4F9EB74E26233B0C00634D27 /* Practice_iOS_ConcurrencyApp.swift in Sources */,
@@ -312,11 +324,13 @@
 				4FEF6836262B315700D68CE3 /* Chapter5Object.m in Sources */,
 				4FEF684A262B471800D68CE3 /* Chapter9View.swift in Sources */,
 				4FEF6826262AEDEE00D68CE3 /* Chapter6ViewModel.swift in Sources */,
+				4FEF6851262B4BDF00D68CE3 /* Chapter10View.swift in Sources */,
 				4FC048D226292E6B0059ECD2 /* Chapter4View.swift in Sources */,
 				4F6D846B2623551000F6CB69 /* Chapter2Object.m in Sources */,
 				4FEF682F262AF4DD00D68CE3 /* Chapter6Object.m in Sources */,
 				4FEF6828262AF05F00D68CE3 /* Duration.swift in Sources */,
 				4FEF6838262B375D00D68CE3 /* Chapter7View.swift in Sources */,
+				4FEF684F262B4BCB00D68CE3 /* Chapter10ViewModel.swift in Sources */,
 				4F9EB77226233EED00634D27 /* Chapter3ViewModel.swift in Sources */,
 				4FEF683A262B377100D68CE3 /* Chapter7ViewModel.swift in Sources */,
 				4FEF6848262B470800D68CE3 /* Chapter9ViewModel.swift in Sources */,

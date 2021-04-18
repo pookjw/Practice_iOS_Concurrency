@@ -44,7 +44,6 @@ class Chapter6ViewModel {
                 }
             }
             
-            // start() 이전에 불려야 한다.
             wordOperation.completionBlock = {
                 print("Thank you for your patronage!")
             }
@@ -63,7 +62,6 @@ class Chapter6ViewModel {
                 }
             }
             
-            // start() 이전에 불려야 한다.
             workOperation.completionBlock = {
                 print("Thank you for your patronage!")
             }
